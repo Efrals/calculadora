@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: "National Park", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  grid-template-columns: repeat(4, 100px);
+}
+
+.grid-container > button {
+  cursor: pointer;
+  font-size: 35px;
+  border: 1px solid rgb(32, 32, 32);
+  background-color: black;
+  color: cyan;
+}
+
+.grid-container > .operator {
+  background-color: red;
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.grid-container > .saida {
+  grid-column: 1 / -1;
+}
