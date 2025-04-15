@@ -3,7 +3,12 @@
   font-family: "National Park", sans-serif;
   font-weight: bold;
   margin: 0;
+  /* Body tem padding por padão, nisso, adiciona um scroll */
   padding: 0;
+}
+
+body {
+  background-color: cyan;
 }
 
 .grid-container {
@@ -11,16 +16,17 @@
   justify-content: center;
   align-content: center;
   min-height: 100vh;
-  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
-  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 90px);
+  grid-template-columns: repeat(4, 90px);
 }
 
 .grid-container > button {
   cursor: pointer;
   font-size: 35px;
-  border: 1px solid rgb(32, 32, 32);
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
   background-color: black;
-  color: cyan;
+  color: rgb(255, 255, 255);
 }
 
 .grid-container > .operator {
@@ -31,6 +37,19 @@
   grid-column: span 2;
 }
 
-.grid-container > .saida {
+.grid-container > .output {
   grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+  background-color: rgb(7, 7, 7);
+}
+
+.grid-container > .output {
+  color: white;
+  font-size: 30px;
 }
