@@ -13,16 +13,45 @@ class Calculator {
     this.clear();
   }
 
+  calculate() {
+    let result;
+
+    const previous = parseFloat(this.previousOperand);
+    const current = parseFloat(this.currentOperand);
+
+    if (isNaN(previous) || isNaN(current)) return;
+    switch (this.operation) {
+      case "+":
+        result = previous + current;
+        break;
+      case "-":
+        result = previous - current;
+        break;
+      case "*":
+        result = previous * current;
+        break;
+      case "/":
+        result = previous / current;
+        break;
+      default:
+        return;
+    }
+    this.currentOperand = result;
+    this.operation = undefined;
+    this.previousOperand = "";
+  }
+
+  //Guarda as operações
   choseOperation(operation) {
     //Verifica se o valor atual está vazio
     if (this.currentOperand === "") return;
     //Verifica se o valor atual é vazio e se o valor anterior está vazio
     if (this.previousOperand !== "") {
-      this.compute();
+      this.calculate();
     }
 
     this.operation = operation;
-    this.previousOperand = `${this.currentOperand}${this.operation}`;
+    this.previousOperand = this.currentOperand;
     this.currentOperand = "";
   }
 
@@ -41,7 +70,9 @@ class Calculator {
   }
 
   updateDisplay() {
-    this.previousOperandText.innerText = this.previousOperand;
+    this.previousOperandText.innerText = `${this.previousOperand} ${
+      this.operation || ""
+    }`;
     this.currentOperandText.innerText = this.currentOperand;
   }
 }
