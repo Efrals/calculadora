@@ -1,6 +1,6 @@
 # 🧮 Calculadora Simples
 
-Este é um projeto de **Calculadora Simples** feito com **HTML**, **CSS** e **JavaScript**. A calculadora permite realizar operações matemáticas básicas de forma intuitiva e com uma interface amigável.
+Este é um projeto de **Calculadora Simples** que permite realizar operações matemáticas básicas de forma intuitiva e com uma interface amigável.
 
 ## 📷 Preview
 
