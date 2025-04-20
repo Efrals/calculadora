@@ -29,7 +29,7 @@ OU
 
 1. Clone o repositório ou baixe o .zip do projeto:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/Efrals/calculadora.git
 
 2. Navegue até a pasta do projeto
 
