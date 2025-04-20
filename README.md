@@ -45,5 +45,4 @@ A lógica da calculadora está encapsulada na classe `Calculator`, que realiza a
 
 - Armazena os valores digitados e a operação selecionada
 - Realiza os cálculos com base nos operandos
-- Atualiza o display formatando os números no padrão brasileiro (`,` ao invés de `.`)
-- Lida com cliques dos botões, incluindo `AC`, `DEL`, e `=`
+- Atualiza o display formatando os números
