@@ -23,7 +23,7 @@ Este é um projeto de **Calculadora Simples** feito com **HTML**, **CSS** e **Ja
 ## 💡 Como usar
 
 Entre no site:
-![Calculadora Preview](calculadoraers.netlify.app)
+![Calculadora Preview](https://calculadoraers.netlify.app)
 
 OU
 
@@ -31,7 +31,7 @@ OU
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-2. Navegue até a pasta do projeto:
+2. Navegue até a pasta do projeto
 
 3. Abra o arquivo index.html no navegador.
 
