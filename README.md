@@ -23,7 +23,7 @@ Este é um projeto de **Calculadora Simples** feito com **HTML**, **CSS** e **Ja
 ## 💡 Como usar
 
 Entre no site:
-[Calculadora Preview](https://calculadoraers.netlify.app)
+[Calculadora](https://calculadoraers.netlify.app)
 
 OU
 
