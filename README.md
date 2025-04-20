@@ -34,9 +34,6 @@ OU
 2. Navegue até a pasta do projeto:
 
 3. Abra o arquivo index.html no navegador.
-# 🧮 Calculadora Simples
-
-Este é um projeto de **Calculadora Simples** feito com **HTML**, **CSS** e **JavaScript**. A calculadora permite realizar operações matemáticas básicas de forma intuitiva e com uma interface amigável.
 
 ## ✨ Layout
 
