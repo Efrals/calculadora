@@ -39,7 +39,7 @@ OU
 
 A interface da calculadora foi criada com `CSS Grid`, pensada para ser clara e objetiva. Os botões são destacados com cores vibrantes, proporcionando uma melhor experiência visual e de usabilidade.
 
-## 🧠 Lógica por trás
+## 🧠 Como funciona
 
 A lógica da calculadora está encapsulada na classe `Calculator`, que realiza as seguintes funções:
 
