@@ -23,7 +23,7 @@ Este é um projeto de **Calculadora Simples** que permite realizar operações m
 ## 💡 Como usar
 
 Entre no site:
-[Calculadora](https://calculadoraers.netlify.app)
+[Calculadora](https://calculadora-efrals.netlify.app)
 
 OU
 
